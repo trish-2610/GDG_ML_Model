@@ -1,0 +1,28 @@
+Step - 1 : Initializing the repository
+git init
+
+Step - 2 : Checking status 
+git status 
+
+Step - 3 : Adding code files
+git add -A
+
+-- loaded to staging area (local PC)
+
+Step - 4 : Commit 
+git commit -m "commit message"
+
+-- capture snapshot of Folder
+
+Step - 5 : Checking branch 
+git branch
+
+Step - 6 : Changing branch to main
+git branch -M main
+
+Step - 7 : Adding remote repository 
+git remote add origin "repo-url"
+
+Step - 8 : Pushing code
+git push -u origin main
+
